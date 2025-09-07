@@ -1,3 +1,12 @@
+/*
+Use this to compile: g++ src/*.cpp -o main.exe -lraylib -lopengl32 -lgdi32 -lwinmm -std=c++17
+And this command to run: ./main.exe
+
+*/
+
+
+
+
 #include <iostream>
 #include "Game.h"
 #include "globals.h"
@@ -74,3 +83,4 @@ int main() {
     CloseWindow();
     return 0;
 }
+
